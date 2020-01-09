@@ -28,7 +28,7 @@ public class AdminDAOImpl implements AdminDAO {
 	@Override
 	@Transactional
 	public void createAdmin(AdminDetails adminDetails) {
-		System.out.println("wow!");
+		System.out.println("wow! hiiiii");
 		Session currentSession = sessionFactory.openSession();
 		currentSession.save(adminDetails);
 		System.out.println("dao");
